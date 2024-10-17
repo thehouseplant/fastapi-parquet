@@ -5,7 +5,12 @@ description = "Add your description here"
 authors = [
     { name = "Sean Collins", email = "sean.collins@outlook.com" }
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.2",
+    "uvicorn>=0.32.0",
+    "pandas>=2.2.3",
+    "pyarrow>=17.0.0",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
